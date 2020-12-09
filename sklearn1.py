@@ -28,6 +28,9 @@ sklearn API 사용방법
        - 지도학습 : 대체로 predict() 메서드를 사용해 알려지지 않은 데이터에 대한 레이블 예측
        - 비지도학습 : 대체로 transform()이나 predict() 메서드를 사용해 데이터의 속성을 변환하거나 추론
 '''
+
+
+
 ### API 기본 사용방법 연습
 import numpy as np
 import matplotlib.pyplot as plt
@@ -64,6 +67,7 @@ print(yfit)
 plt.scatter(x, y)    # 원 데이터 분포
 plt.plot(xfit, yfit, '--r')   # 모델 예측
 plt.show()
+
 
 
 
